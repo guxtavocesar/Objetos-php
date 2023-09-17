@@ -23,6 +23,12 @@ class Funcionalidade {
             'icon' => 'imagens/editar.png',
             'link' => 'www.editar.com',
         );
+
+        $this->dados['consultar'] = array(
+            'nome' => 'Consultar',
+            'icon' => 'imagens/consultar.png',
+            'link' => 'www.consultar.com',
+        );
     }
 }
 

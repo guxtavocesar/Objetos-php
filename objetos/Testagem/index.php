@@ -15,12 +15,15 @@
     $eliminarinfo = $funcionalidade->dados['eliminar'];
     $historicoinfo = $funcionalidade->dados['historico'];
     $editarinfo = $funcionalidade->dados['editar'];
+    $consultarinfo = $funcionalidade->dados['consultar'];
     
     var_dump($eliminarinfo);
     echo "<br><br>";
     var_dump($historicoinfo);
     echo "<br><br>";
     var_dump($editarinfo);
+    echo "<br><br>";
+    var_dump($consultarinfo);
 
 ?>
     
