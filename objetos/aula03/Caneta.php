@@ -10,13 +10,20 @@ class Caneta {
 
     public function rabiscar() {
 
-        if($this->tampada) {
-            echo "<p>ERRO: Não posso rabiscar</p><br>";
+        switch($this->tampada){
+            case TRUE: 
+                "<p>ERRO: Não posso rabiscar</p><br>";
+            default:
+                "<p>Estou rabiscando . . .</p><br>";
+        };
 
-        } else {
-            echo "<p>Estou rabiscando . . .</p><br>";
+        // if($this->tampada) {
+        //     echo "<p>ERRO: Não posso rabiscar</p><br>";
 
-        }
+        // } else {
+        //     echo "<p>Estou rabiscando . . .</p><br>";
+
+        // }
 
     }
 
